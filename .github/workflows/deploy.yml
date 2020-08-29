@@ -35,7 +35,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        key:
+        key: ${{ secrets.KEY }}
         debug: true
         script: |
           cd ${{ secrets.TARGET }}
